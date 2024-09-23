@@ -497,6 +497,10 @@ body {
     list-style: none;
     padding: 20px;
 
+    @media screen and (max-width: 480px) {
+      display: block;
+    }
+
     > li > h4 {
       font-size: 30px;
 
@@ -530,6 +534,11 @@ footer {
   border-top: 1px solid #ddd;
   padding: 20px 0;
   font-size: 12px;
+
+  @media screen and (max-width: 480px) {
+    display: block;
+    justify-content: center;
+  }
 
   .github-logo {
     border-radius: 50%;
