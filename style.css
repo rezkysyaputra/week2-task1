@@ -448,6 +448,27 @@ footer {
   overflow: hidden;
   position: relative;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ddd;
+  padding: 20px 0;
+  font-size: 12px;
+}
+footer .github-logo {
+  border-radius: 50%;
+  align-items: center;
+}
+footer > ul {
+  display: flex;
+  list-style: none;
+  color: #3d3d3d;
+}
+footer > ul > li {
+  margin: 5px;
+}
+footer > ul > li > a {
+  text-decoration: none;
+  color: #327fc7;
 }
 
 /*# sourceMappingURL=style.css.map */
